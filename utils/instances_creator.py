@@ -10,11 +10,11 @@ file_name = 2
 machines_file_name = 'machines.txt'
 tasks_file_name = 'tasks.txt'
 
-f_machines = open("utils/" + machines_file_name,"r")
+f_machines = open(machines_file_name,"r")
 lines_m = f_machines.readlines()
 f_machines.close()
 
-f_tasks = open("utils/" + tasks_file_name, "r")
+f_tasks = open(tasks_file_name, "r")
 lines_t = f_tasks.readlines()
 f_tasks.close()
 
